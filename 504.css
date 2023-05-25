@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+    font-family: "Inter",sans;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1024px;
+    height: 550px;
+}
+.nav{
+    background-color: #b4473d;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.content{
+    margin: 20px auto;
+
+    text-align: center;
+
+}
+.content_word{
+    padding: 30px 50px;
+}
+.content h1{
+    margin: 10px 0px;
+}
+.content p{
+    margin-bottom: 10px;
+    /* 段落間距 */
+}
+.content a{
+    background-color: #b4473d;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    float: left;
+    /* 這裡也可以用flex寫 */
+    text-align: justify;
+    /*text-align: center;*/
+}
+a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    /* decoration: none可以把連結預設的底線拿掉 */
+}
+a:hover{
+    color: #b4473d;
+    background-color: #fcd25d;
+    font-style:italic;
+}
+.footer{
+    margin: 10px auto;
+    width: 100%;
+}
+.footer p{
+    padding: 10px;
+    background-color: #6d5040;
+    color:  #ffffff;
+    text-align: center;
+    text-size-adjust: 8px;
+}
+
+aside{
+    width: 25%;
+    min-height: 85%;
+    min-width: 200px;
+    background-color: #e4bd53;
+    float: left;
+}
+aside ul{
+    display: block;
+    margin: 30px 30px;
+}
+aside li a{
+    color: #000;
+    border-style: solid;
+    border-color: #b4473d;
+    width: 100px;
+    margin: 10px;
+}
+
+@media screen and (max-width:1024px) {
+    .wrapper{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    li a {
+        padding: 10px;
+    }
+}
+.el {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+  .el--1 {
+    align-self: center;
+  }
+  .el--2 {
+    align-self: center;
+  }
+  .el--3 {
+    align-self: center;
+  }
+  .el--4 {
+    align-self: center;
+  }
+  .el--5 {
+    align-self: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    color: #343a40;
+    line-height: 1;
+  }
